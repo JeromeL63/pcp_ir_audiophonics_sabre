@@ -1,3 +1,3 @@
-install python and pip via pcp Gui
+install gcc,python and pip via pcp Gui
 update pip before
 python -m pip install --upgrade pip 
