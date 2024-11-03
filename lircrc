@@ -1,0 +1,45 @@
+begin
+        prog = irexec
+        remote = Salon
+        button = KEY_ENTER
+        repeat= 0
+        config = pcp pause
+end
+begin
+        prog = irexec
+        remote = Salon
+        button = KEY_UP
+        repeat = 3
+        delay = 2
+        config = pcp up
+end
+begin
+        prog = irexec
+        button = KEY_DOWN
+        delay = 2
+        repeat = 3
+	config = pcp down
+end
+begin
+        prog = irexec
+        button = KEY_RIGHT
+        remote = Salon
+        config = pcp next
+end
+begin
+        prog = irexec
+        remote = Salon
+        button = KEY_LEFT
+        config = pcp prev
+end
+begin
+        prog = irexec
+        button = KEY_MENU
+        config = /usr/local/bin/apessq2m toggle_input &
+end
+begin
+        prog = irexec
+        remote = Salon
+        button = KEY_PLAY
+        config = pcp play
+end
