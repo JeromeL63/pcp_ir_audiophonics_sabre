@@ -1,0 +1,3 @@
+install python and pip via pcp Gui
+update pip before
+python -m pip install --upgrade pip 
